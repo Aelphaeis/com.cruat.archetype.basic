@@ -4,6 +4,12 @@
   <groupId>com.cruat</groupId>
   <artifactId>archetype.basic</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>Archetype - basic</name>
+  <name>Archetype - Basic Cruat</name>
   <url>http://maven.apache.org</url>
+  
+  	<properties>
+		<project.build.sourceEncoding>ISO8859_1</project.build.sourceEncoding>
+	</properties>
+  
+  
 </project>
