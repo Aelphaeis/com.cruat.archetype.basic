@@ -1,8 +1,7 @@
-package $com.cruat.basic;
+package $package;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 
 public class Program {
 	private static final Logger logger = LogManager.getLogger();
