@@ -29,11 +29,12 @@
 				<include>log4j2.xml</include>
 			</includes>
 		</fileSet>
-<!-- 		<fileSet filtered="true" packaged="false"> -->
-<!-- 			<includes> -->
-<!-- 				<directory>/</directory> -->
-<!-- 				<include>pom.xml</include> -->
-<!-- 			</includes> -->
-<!-- 		</fileSet> -->
+		<fileSet filtered="false" packaged="false">
+			<directory>/</directory>
+			<includes>
+				<include>.gitignore</include>
+				<include>.travis.yml</include>
+			</includes>	
+		</fileSet>
 	</fileSets>
 </archetype-descriptor>
