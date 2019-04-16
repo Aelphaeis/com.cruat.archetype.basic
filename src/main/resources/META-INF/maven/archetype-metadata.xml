@@ -29,8 +29,8 @@
 				<include>log4j2.xml</include>
 			</includes>
 		</fileSet>
-		<fileSet filtered="false" packaged="false">
-			<directory>/</directory>
+		<fileSet>
+			<directory></directory>
 			<includes>
 				<include>.gitignore</include>
 				<include>.travis.yml</include>
