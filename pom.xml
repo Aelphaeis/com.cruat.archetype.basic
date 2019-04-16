@@ -38,17 +38,27 @@
 		</extensions>
 		<pluginManagement>
 			<plugins>
+				<plugins>
+					<plugin>
+						<artifactId>maven-compiler-plugin</artifactId>
+						<version>3.3</version>
+						<configuration>
+							<source>1.8</source>
+							<target>1.8</target>
+						</configuration>
+					</plugin>
+				</plugins>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-archetype-plugin</artifactId>
 				</plugin>
 				<plugin>
-				
+
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-resources-plugin</artifactId>
 					<configuration>
-			            <!-- Required so that .gitignore gets included in archetypes -->
-              			<!-- see https://issues.apache.org/jira/browse/MRESOURCES-190 -->
+						<!-- Required so that .gitignore gets included in archetypes -->
+						<!-- see https://issues.apache.org/jira/browse/MRESOURCES-190 -->
 						<addDefaultExcludes>false</addDefaultExcludes>
 					</configuration>
 				</plugin>
