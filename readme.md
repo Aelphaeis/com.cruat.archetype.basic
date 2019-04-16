@@ -1,1 +1,1 @@
-This is a readme
+#This is a basic archetype for com.cruat projects
